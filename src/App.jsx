@@ -24,7 +24,7 @@ export default function App() {
   const [error, setError] = useState("");
 
   // ❗ CHANGE THIS TO YOUR REAL RAILWAY BACKEND URL
-  const API_URL = "diplomatic-harmony-production-66e6.up.railway.app";
+  const API_URL = "https://diplomatic-harmony-production-66e6.up.railway.app";
 
   useEffect(() => {
     if (isAuthenticated) {
